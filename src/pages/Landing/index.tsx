@@ -14,7 +14,7 @@ function Landing() {
       <div id="page-landing-content" className="container">
         <div className="logo-container">
           <img src={logoImg} alt="Proffy"/>
-          <h2>Your online study's plataform.</h2>
+          <h2>Your online study plataform.</h2>
         </div>
         <img src={landingImg} alt="Study Plataform" className="hero-image"/>
 
