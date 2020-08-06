@@ -46,6 +46,7 @@ input,
 button,
 textarea {
   font: 500 1.6rem Poppins;
+  color: var(--color-text-base)
 }
 
 .container {
@@ -55,6 +56,9 @@ textarea {
 
 @media (min-width: 700px) {
   :root {
+    /*
+    16 x 0.625 = 10px
+    */
     font-size: 62.5%;
   }
 }
