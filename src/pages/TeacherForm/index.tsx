@@ -26,7 +26,7 @@ function TeacherForm() {
          <fieldset>
            <legend>About the class</legend>
           <Input name="subject" label="Subject" />
-          <Input name="cost" label="Cost your hour per class" />
+          <Input name="cost" label="Cost of your hour per class" />
          </fieldset>
 
          <footer>
