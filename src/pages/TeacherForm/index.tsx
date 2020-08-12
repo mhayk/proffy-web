@@ -1,10 +1,11 @@
 import React from 'react';
 
 import PageHeader from '../../components/PageHeader';
+import Input from '../../components/Input';
 import Textarea from '../../components/TextArea';
+import Select from '../../components/Select';
 
 import './styles.css';
-import Input from '../../components/Input';
 
 import warningIcon from '../../assets/images/icons/warning.svg';
 
@@ -27,7 +28,20 @@ function TeacherForm() {
 
          <fieldset>
            <legend>About the class</legend>
-          <Input name="subject" label="Subject" />
+          <Select
+            name="subject"
+            label="Subject"
+            options={[
+              { value: 'Arts', label: 'Arts' },
+              { value: 'Math', label: 'Math' },
+              { value: 'Biology', label: 'Biology' },
+              { value: 'Alchemy', label: 'Alchemy' },
+              { value: 'History', label: 'History' },
+              { value: 'Geography', label: 'Geography' },
+              { value: 'English', label: 'English' },
+              { value: 'Portuguese', label: 'Portuguese' },
+            ]}
+          />
           <Input name="cost" label="Cost of your hour per class" />
          </fieldset>
 
